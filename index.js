@@ -5,5 +5,5 @@ function boom() {
 
 const button = document.querySelector("button")
 button.addEventListener("click", event => {
-    console.log(boom())
+    return boom()
 })
