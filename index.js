@@ -4,6 +4,6 @@ function boom() {
 
 
 const button = document.querySelector("button")
-button.addEventListener("click", event => {
-    return boom()
+button.addEventListener("click", () => {
+    button.textContent = boom()
 })
